@@ -1,10 +1,11 @@
 import path from 'path';
 
+// TODO: Better to check what module system is being used
 /**
  * mongoose-data-seed user config filename
  * @type {String}
  */
-export const configFilename = 'md-seed-config.js';
+export const configFilename = 'md-seed-config.cjs';
 
 /**
  * mongoose-data-seed default user generator-config
