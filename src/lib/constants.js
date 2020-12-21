@@ -5,7 +5,7 @@ import path from 'path';
  * mongoose-data-seed user config filename
  * @type {String}
  */
-export const configFilename = 'md-seed-config.cjs';
+export const configFilename = 'md-seed-config.js';
 
 /**
  * mongoose-data-seed default user generator-config

@@ -111,8 +111,8 @@ const config = {
   /**
    * Load the user config
    */
-  loadUserConfig() {
-    return require(this.userConfigFilepath);
+  async loadUserConfig() {
+    return import(this.userConfigFilepath);
   },
 };
 

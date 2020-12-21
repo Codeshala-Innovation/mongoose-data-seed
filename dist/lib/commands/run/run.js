@@ -33,8 +33,7 @@ const run = async ({
     connect,
     dropdb,
     seedersList
-  } = _config.default.loadUserConfig(); // create logger
-
+  } = await _config.default.loadUserConfig(); // create logger
 
   const logger = new _runLogger.default(); // create runner
 

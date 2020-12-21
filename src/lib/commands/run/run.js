@@ -16,7 +16,7 @@ const run = async ({ selectedSeeders = [], dropDatabase = false } = {}) => {
   validateUserConfig();
 
   // get relevant user-config
-  const { connect, dropdb, seedersList } = config.loadUserConfig();
+  const { connect, dropdb, seedersList } = await config.loadUserConfig();
 
   // create logger
   const logger = new RunLogger();

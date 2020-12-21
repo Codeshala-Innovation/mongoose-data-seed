@@ -15,7 +15,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * mongoose-data-seed user config filename
  * @type {String}
  */
-const configFilename = 'md-seed-config.cjs';
+const configFilename = 'md-seed-config.js';
 /**
  * mongoose-data-seed default user generator-config
  * @type {Object}
